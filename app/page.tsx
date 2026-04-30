@@ -9,8 +9,7 @@ export default function Home() {
   return (
     <>
       {/* HERO */}
-      <section style={{ background: "linear-gradient(135deg, #1B2A4A 0%, #0F1A30 100%)", color: "white", padding: "6rem 1.5rem", position: "relative", overflow: "hidden" }}>
-        <div style={{ position: "absolute", top: "-40%", right: "-15%", width: "500px", height: "500px", borderRadius: "50%", background: "rgba(201,169,110,0.04)", pointerEvents: "none" }} />
+      <section style={{ backgroundImage: "linear-gradient(rgba(27,42,74,0.85), rgba(15,26,48,0.9)), url(/images/hero-main.webp)", backgroundSize: "cover", backgroundPosition: "center", color: "white", padding: "6rem 1.5rem", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto", position: "relative", zIndex: 1 }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))", gap: "3rem", alignItems: "center" }}>
             <div>
