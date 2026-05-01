@@ -1,3 +1,5 @@
+import { CookieConsent } from "@/components/cookie-consent"
+import { ErrorBoundary } from "@ai-whisperers/ui"
 import type { Metadata } from "next"
 import "./globals.css"
 import Header from "@/components/header"
@@ -72,12 +74,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <div id="main-content">
           <Header />
-          <main>{children}</main>
+          <main><ErrorBoundary>{children}</ErrorBoundary></main>
           <Footer />
           <WhatsAppFloat />
         </div>
         <div className="h-20 md:h-0" />
-      </body>
+            <CookieConsent />
+    </body>
     </html>
   )
 }
