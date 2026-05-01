@@ -1,56 +1,64 @@
-# Cuestionario para Cliente — Villamayor & Asociados
+# Client Onboarding Questionnaire — Villamayor & Asociados
 
-## Información General
-- [ ] Nombre comercial correcto: ¿"Villamayor & Asociados" o "Villamayor y Asociados"?
-- [ ] ¿Tienen logo? (enviar archivo SVG/PNG)
-- [ ] ¿Tienen colores de marca definidos? (actual: azul marino #1B2A4A + dorado #C9A96E)
-- [ ] Subdominio preferido: ¿villamayor.paragu-ai.com u otro?
-- [ ] ¿Dominio propio? (ej: villamayorlaw.com.py)
-- [ ] ¿Alejandro es el único abogado o hay más socios/asociados? (nombrarlos)
-- [ ] ¿Año de fundación del estudio?
-- [ ] Redes sociales: Instagram, LinkedIn (handles reales)
-- [ ] Foto profesional del equipo / oficina (para la página "Nosotros")
+## 1. Business Information
+- **Business name (legal):**
+- **Trading as / DBA:**
+- **RUC number (if applicable):**
+- **Year founded:**
+- **Number of employees:**
+- **Business hours:**
+- **Physical address (for Google Maps):**
+- **Phone (WhatsApp):**
+- **Phone (voice):**
+- **Email:**
+- **Website (current, if any):**
 
-## Contacto (datos reales)
-- [ ] WhatsApp / teléfono real
-- [ ] Email real
-- [ ] Dirección exacta (calle, número, barrio, ciudad)
-- [ ] Horarios de atención
+## 2. Brand Identity
+- **Brand colors** (primary, secondary, accent) — hex codes or examples:
+- **Logo files** (SVG/PNG, link or upload):
+- **Font preferences** (if any):
+- **Brand voice:** professional · friendly · luxury · casual · other:
+- **Tone:** formal · informal · playful · serious:
+- **Target audience description:**
 
-## Áreas de Práctica (marcar las que correspondan)
-- [ ] Derecho Contractual
-- [ ] Litigios Civiles y Comerciales
-- [ ] Derecho Inmobiliario
-- [ ] Derecho de Familia (divorcios, alimentos, sucesiones)
-- [ ] Derecho Laboral
-- [ ] Derecho Corporativo (constitución de sociedades, compliance)
-- [ ] Due Diligence y Auditoría Legal
-- [ ] Inversiones Extranjeras / Investor Pass
-- [ ] Otra: ________________
+## 3. Services / Products
+- **List all services/products offered** (name, description, price range, currency):
+- **Do you have packages or bundles?**
+- **Any seasonal or temporary offerings?**
+- **Booking / appointment system needed?**
 
-## Identidad y Posicionamiento
-- [ ] ¿El estudio atiende principalmente a **empresas** (B2B), **particulares** (B2C), o ambos?
-- [ ] ¿Tienen clientes extranjeros o solo locales?
-- [ ] ¿Cuál es su principal ventaja competitiva? (ej: respuesta rápida, honorarios fijos, atención bilingüe)
-- [ ] ¿Manejan casos en todo Paraguay o solo Asunción?
-- [ ] ¿Ofrecen consultas virtuales?
+## 4. Content Requirements
+- **Number of pages needed:**
+- **Blog?** (topics, frequency):
+- **Photo gallery?** (number of images):
+- **Client testimonials?** (how many, have them ready?):
+- **FAQ questions and answers:**
+- **Team / staff profiles** (names, photos, bios):
 
-## Contenido del Sitio
-- [ ] ¿Tienen testimonios reales de clientes? (nombre, cargo, texto)
-- [ ] ¿Tienen casos de éxito para publicar?
-- [ ] Blog: ¿tienen artículos escritos o temas que quieran cubrir?
-- [ ] ¿Quieren sección de "preguntas frecuentes" específica adicional?
-- [ ] ¿Quieren pricing visible (honorarios) o solo "consultar"?
+## 5. Technical Requirements
+- **eCommerce / checkout needed?**
+- **Payment gateways:** Bancard · Pagopar · Mercado Pago · Transfer:
+- **Shipping / delivery zones:**
+- **Online booking / appointment scheduling?**
+- **Client portal / login area?**
+- **Newsletter / email marketing?**
+- **Social media links to integrate:**
+- **Google Analytics already set up?** (GA4 measurement ID):
+- **Google Business Profile listing URL:**
+- **Existing domain or need a new one?**
 
-## Imágenes
-- [ ] Fotos de la oficina / fachada
-- [ ] Foto profesional de Alejandro y/o el equipo
-- [ ] Imágenes de fondo para el hero (justicia, leyes, edificio)
-- [ ] Logotipo en formato vectorial (.svg) o PNG de alta resolución
+## 6. Competitors
+- **Main competitors (list 3-5):**
+- **Competitor websites:**
+- **What do you like about their sites?**
+- **What do you dislike?**
 
-## Funcionalidades Adicionales
-- [ ] Formulario de contacto (actual: deriva a WhatsApp)
-- [ ] Blog con artículos reales
-- [ ] Integración de calendario para agendar citas (Calendly)
-- [ ] Mapa de ubicación (Google Maps embed)
-- [ ] Versión en inglés del sitio
+## 7. Timeline & Budget
+- **Launch deadline:**
+- **Budget range:**
+- **Who is the decision maker?** (name, contact):
+
+## 8. Additional Notes
+- **Any special features or integrations needed?**
+- **Any content already written / ready to use?**
+- **Anything else we should know?**
