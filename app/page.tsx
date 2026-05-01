@@ -130,10 +130,10 @@ export default function Home() {
       <section style={{ padding: "5rem 1.5rem", backgroundColor: "white" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <h2 className="serif gold-underline" style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 700, color: "#1B2A4A", textAlign: "center", marginBottom: "3rem" }}>
-            {content.testimonials.title}
+            Lo Que Dicen Nuestros Clientes
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))", gap: "1.5rem" }}>
-            {content.testimonials.items.map((t, i) => (
+            {content.testimonials.map((t, i) => (
               <div key={i} className="gallery-card" style={{ backgroundColor: "#F8F6F2", borderRadius: "12px", padding: "1.5rem", border: "1px solid #E8E3DA" }}>
                 <div style={{ display: "flex", gap: "0.25rem", marginBottom: "0.75rem" }}>
                   {Array.from({ length: t.rating }).map((_, j) => (
@@ -143,8 +143,8 @@ export default function Home() {
                 <p style={{ fontSize: "0.9375rem", lineHeight: 1.7, color: "#4B5563", marginBottom: "1rem", fontStyle: "italic" }}>
                   &ldquo;{t.text}&rdquo;
                 </p>
-                <p style={{ fontWeight: 600, fontSize: "0.8125rem", color: "#1B2A4A" }}>{t.author}</p>
-                <p style={{ fontSize: "0.75rem", color: "#8B7355" }}>{t.role}</p>
+                <p style={{ fontWeight: 600, fontSize: "0.8125rem", color: "#1B2A4A" }}>{t.name}</p>
+                {(t as any).role && <p style={{ fontSize: "0.75rem", color: "#8B7355" }}>{(t as any).role}</p>}
               </div>
             ))}
           </div>

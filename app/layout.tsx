@@ -1,5 +1,3 @@
-import { CookieConsent } from "@/components/cookie-consent"
-import { ErrorBoundary } from "@ai-whisperers/ui"
 import type { Metadata } from "next"
 import "./globals.css"
 import Header from "@/components/header"
@@ -35,9 +33,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta name="theme-color" content="#1B2A4A" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXX" />
         <script dangerouslySetInnerHTML={{
-          __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${process.env.NEXT_PUBLIC_GA_ID}');`
+          __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtat('js',new Date());gtag('config','G-XXXXXXXXXXX');`
         }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -74,13 +72,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <div id="main-content">
           <Header />
-          <main><ErrorBoundary>{children}</ErrorBoundary></main>
+          <main>{children}</main>
           <Footer />
           <WhatsAppFloat />
         </div>
         <div className="h-20 md:h-0" />
-            <CookieConsent />
-    </body>
+      </body>
     </html>
   )
 }
