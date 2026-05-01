@@ -1,7 +1,7 @@
 FROM paragu-ai/next-base:node20 AS deps
 WORKDIR /app
 COPY package.json package-lock.json* ./
-RUN npm install --legacy-peer-deps
+RUN npm install --legacy-peer-deps --include=dev
 
 FROM paragu-ai/next-base:node20 AS builder
 WORKDIR /app
