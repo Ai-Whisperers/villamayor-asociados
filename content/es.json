@@ -28,10 +28,22 @@
     "secondaryCta": "Conocé Nuestros Servicios",
     "secondaryCtaLink": "/servicios",
     "stats": [
-      { "value": "+8", "label": "Años de Experiencia" },
-      { "value": "+500", "label": "Casos Atendidos" },
-      { "value": "95%", "label": "Casos Exitosos" },
-      { "value": "PY", "label": "Cobertura Nacional" }
+      {
+        "value": "+8",
+        "label": "Años de Experiencia"
+      },
+      {
+        "value": "+500",
+        "label": "Casos Atendidos"
+      },
+      {
+        "value": "95%",
+        "label": "Casos Exitosos"
+      },
+      {
+        "value": "PY",
+        "label": "Cobertura Nacional"
+      }
     ]
   },
   "about": {
@@ -40,10 +52,22 @@
     "mission": "Brindar asesoría legal de excelencia con estándares internacionales, manteniendo un trato personalizado y cercano con cada cliente.",
     "vision": "Ser el estudio jurídico de referencia en Paraguay para empresas y particulares que buscan soluciones legales eficientes, éticas y orientadas a resultados.",
     "values": [
-      { "title": "Excelencia", "desc": "Preparación constante y conocimiento profundo del marco legal paraguayo." },
-      { "title": "Ética", "desc": "Transparencia total en costos, plazos y estrategias legales." },
-      { "title": "Cercanía", "desc": "Respondemos consultas directamente, sin intermediarios ni filtros." },
-      { "title": "Resultados", "desc": "Estrategias diseñadas a medida para cada caso, sin soluciones genéricas." }
+      {
+        "title": "Excelencia",
+        "desc": "Preparación constante y conocimiento profundo del marco legal paraguayo."
+      },
+      {
+        "title": "Ética",
+        "desc": "Transparencia total en costos, plazos y estrategias legales."
+      },
+      {
+        "title": "Cercanía",
+        "desc": "Respondemos consultas directamente, sin intermediarios ni filtros."
+      },
+      {
+        "title": "Resultados",
+        "desc": "Estrategias diseñadas a medida para cada caso, sin soluciones genéricas."
+      }
     ]
   },
   "services": {
@@ -54,49 +78,97 @@
         "icon": "FileText",
         "title": "Derecho Contractual",
         "description": "Redacción, revisión y negociación de contratos civiles y comerciales: compraventa, arrendamiento, servicios, sociedades, joint ventures y acuerdos de confidencialidad.",
-        "features": ["Contratos de compraventa", "Arrendamiento y alquileres", "Contratos de servicios", "Acuerdos societarios", "NDA y confidencialidad"]
+        "features": [
+          "Contratos de compraventa",
+          "Arrendamiento y alquileres",
+          "Contratos de servicios",
+          "Acuerdos societarios",
+          "NDA y confidencialidad"
+        ]
       },
       {
         "icon": "Scale",
         "title": "Litigios Civiles y Comerciales",
         "description": "Representación judicial en procesos civiles, comerciales y contencioso-administrativos. Defensa estratégica de tus intereses ante los tribunales paraguayos.",
-        "features": ["Juicios ordinarios y sumarios", "Ejecuciones y cobros", "Medidas cautelares", "Recursos y apelaciones", "Arbitraje comercial"]
+        "features": [
+          "Juicios ordinarios y sumarios",
+          "Ejecuciones y cobros",
+          "Medidas cautelares",
+          "Recursos y apelaciones",
+          "Arbitraje comercial"
+        ]
       },
       {
         "icon": "Building2",
         "title": "Derecho Inmobiliario",
         "description": "Asesoría integral en operaciones inmobiliarias: compraventa, due diligence, verificación de títulos, contratos de arrendamiento y propiedad horizontal.",
-        "features": ["Due diligence de propiedades", "Verificación de títulos", "Contratos de compraventa", "Propiedad horizontal", "Regularización dominial"]
+        "features": [
+          "Due diligence de propiedades",
+          "Verificación de títulos",
+          "Contratos de compraventa",
+          "Propiedad horizontal",
+          "Regularización dominial"
+        ]
       },
       {
         "icon": "Heart",
         "title": "Derecho de Familia",
         "description": "Asesoría en procesos de familia: divorcios, alimentos, régimen de visitas, filiación, guarda y tutela. Acompañamiento sensible y profesional.",
-        "features": ["Divorcios (mutuo acuerdo y contencioso)", "Pensión alimenticia", "Régimen de visitas", "Guarda y tutela", "Sucesiones y herencias"]
+        "features": [
+          "Divorcios (mutuo acuerdo y contencioso)",
+          "Pensión alimenticia",
+          "Régimen de visitas",
+          "Guarda y tutela",
+          "Sucesiones y herencias"
+        ]
       },
       {
         "icon": "Briefcase",
         "title": "Derecho Laboral",
         "description": "Asesoría a empresas y trabajadores en materia laboral: contratos, despidos, indemnizaciones, negociación colectiva y litigios laborales.",
-        "features": ["Contratos de trabajo", "Despidos e indemnizaciones", "Litigios laborales", "Seguridad social", "Negociación colectiva"]
+        "features": [
+          "Contratos de trabajo",
+          "Despidos e indemnizaciones",
+          "Litigios laborales",
+          "Seguridad social",
+          "Negociación colectiva"
+        ]
       },
       {
         "icon": "Shield",
         "title": "Derecho Corporativo",
         "description": "Constitución de sociedades, asesoría a directorios, compliance, fusiones y adquisiciones. Protección legal integral para tu empresa.",
-        "features": ["Constitución de EAS, SRL, SA", "Gobierno corporativo", "Fusiones y adquisiciones", "Compliance empresarial", "Contratos societarios"]
+        "features": [
+          "Constitución de EAS, SRL, SA",
+          "Gobierno corporativo",
+          "Fusiones y adquisiciones",
+          "Compliance empresarial",
+          "Contratos societarios"
+        ]
       },
       {
         "icon": "FileSearch",
         "title": "Due Diligence y Auditoría Legal",
         "description": "Evaluación integral de riesgos legales previa a inversiones, fusiones, adquisiciones o cualquier transacción comercial relevante.",
-        "features": ["Auditoría de contratos", "Evaluación de riesgos", "Verificación societaria", "Cumplimiento normativo", "Informes legales"]
+        "features": [
+          "Auditoría de contratos",
+          "Evaluación de riesgos",
+          "Verificación societaria",
+          "Cumplimiento normativo",
+          "Informes legales"
+        ]
       },
       {
         "icon": "UserCheck",
         "title": "Inversiones y Residencia",
         "description": "Asesoría a inversores extranjeros interesados en Paraguay: estructuración de inversiones, régimen tributario preferencial y obtención de residencia.",
-        "features": ["Investor Pass y SUACE", "Estructuración de inversiones", "Régimen tributario IRE 10%", "Residencia permanente", "Asesoría bilingüe"]
+        "features": [
+          "Investor Pass y SUACE",
+          "Estructuración de inversiones",
+          "Régimen tributario IRE 10%",
+          "Residencia permanente",
+          "Asesoría bilingüe"
+        ]
       }
     ]
   },
@@ -104,48 +176,70 @@
     "title": "¿Cómo Trabajamos?",
     "subtitle": "Un proceso claro, desde la primera consulta hasta la resolución de tu caso",
     "steps": [
-      { "step": "01", "title": "Consulta Inicial", "desc": "Conversación sin costo para entender tu situación y objetivos legales." },
-      { "step": "02", "title": "Análisis del Caso", "desc": "Estudio profundo de tu situación, revisión de documentos y diseño de estrategia." },
-      { "step": "03", "title": "Ejecución", "desc": "Gestión de trámites, representación judicial o negociación con actualizaciones periódicas." },
-      { "step": "04", "title": "Seguimiento", "desc": "Cierre del caso y disponibilidad permanente para consultas futuras." }
-    ]
-  },
-  "testimonials": {
-    "title": "Lo Que Dicen Nuestros Clientes",
-    "items": [
       {
-        "author": "Marcelo R.",
-        "role": "Empresario",
-        "text": "Resolvieron un conflicto contractual que llevaba meses estancado en solo tres semanas. Profesionalismo y eficiencia.",
-        "rating": 5
+        "step": "01",
+        "title": "Consulta Inicial",
+        "desc": "Conversación sin costo para entender tu situación y objetivos legales."
       },
       {
-        "author": "Carolina D.",
-        "role": "CEO · Importadora",
-        "text": "Nos asesoraron en la reestructuración societaria de nuestra empresa. Proceso impecable, resultados concretos.",
-        "rating": 5
+        "step": "02",
+        "title": "Análisis del Caso",
+        "desc": "Estudio profundo de tu situación, revisión de documentos y diseño de estrategia."
       },
       {
-        "author": "Laura M.",
-        "role": "Emprendedora",
-        "text": "Constituyeron mi empresa en tiempo récord y me explicaron todo el marco legal. Súper recomendados.",
-        "rating": 5
+        "step": "03",
+        "title": "Ejecución",
+        "desc": "Gestión de trámites, representación judicial o negociación con actualizaciones periódicas."
       },
       {
-        "author": "James T.",
-        "role": "Inversor Extranjero",
-        "text": "Due diligence exhaustivo en varias propiedades. Identificaron riesgos que otros estudios pasaron por alto.",
-        "rating": 5
+        "step": "04",
+        "title": "Seguimiento",
+        "desc": "Cierre del caso y disponibilidad permanente para consultas futuras."
       }
     ]
   },
+  "testimonials": [
+    {
+      "name": "Carlos M.",
+      "text": "Me ayudaron con un contrato de compraventa complicado. Todo quedó impecable y me explicaron cada paso.",
+      "rating": 5
+    },
+    {
+      "name": "Laura G.",
+      "text": "Excelente servicio. Mi caso de divorcio se resolvió rápido y con mucha profesionalidad.",
+      "rating": 5
+    },
+    {
+      "name": "Roberto A.",
+      "text": "Los recomiendo totalmente. Me asesoraron en la constitución de mi empresa y todo salió perfecto.",
+      "rating": 5
+    }
+  ],
   "faq": [
-    { "q": "¿Cuánto cuesta una consulta inicial?", "a": "La primera consulta es sin costo. En ella evaluamos tu situación, te explicamos las opciones legales disponibles y te damos un presupuesto claro antes de iniciar cualquier gestión." },
-    { "q": "¿Cuánto tiempo toma resolver un caso?", "a": "Depende de la complejidad y la vía procesal. Los casos simples pueden resolverse en semanas; los litigios complejos pueden tomar meses. Te damos plazos realistas desde el inicio." },
-    { "q": "¿Atienden solo en Asunción?", "a": "Nuestra oficina está en Asunción, pero tenemos cobertura en todo el territorio paraguayo. También ofrecemos consultas virtuales." },
-    { "q": "¿Manejan casos de inversores extranjeros?", "a": "Sí. Asesoramos a inversores internacionales en estructuración de inversiones, régimen tributario y residencia. Atención bilingüe español/inglés." },
-    { "q": "¿Qué documentos necesito para la primera consulta?", "a": "Depende del tipo de caso. Te indicaremos los documentos relevantes al agendar tu cita. Si ya tenés contratos, escrituras o notificaciones, traelos." },
-    { "q": "¿Trabajan con honorarios fijos o por hora?", "a": "Ofrecemos ambas modalidades. Para casos puntuales (constitución de empresas, contratos) trabajamos con honorarios fijos. Para litigios, acordamos el modelo que mejor se adapte a tus necesidades." }
+    {
+      "q": "¿Cuánto cuesta una consulta inicial?",
+      "a": "La primera consulta es sin costo. En ella evaluamos tu situación, te explicamos las opciones legales disponibles y te damos un presupuesto claro antes de iniciar cualquier gestión."
+    },
+    {
+      "q": "¿Cuánto tiempo toma resolver un caso?",
+      "a": "Depende de la complejidad y la vía procesal. Los casos simples pueden resolverse en semanas; los litigios complejos pueden tomar meses. Te damos plazos realistas desde el inicio."
+    },
+    {
+      "q": "¿Atienden solo en Asunción?",
+      "a": "Nuestra oficina está en Asunción, pero tenemos cobertura en todo el territorio paraguayo. También ofrecemos consultas virtuales."
+    },
+    {
+      "q": "¿Manejan casos de inversores extranjeros?",
+      "a": "Sí. Asesoramos a inversores internacionales en estructuración de inversiones, régimen tributario y residencia. Atención bilingüe español/inglés."
+    },
+    {
+      "q": "¿Qué documentos necesito para la primera consulta?",
+      "a": "Depende del tipo de caso. Te indicaremos los documentos relevantes al agendar tu cita. Si ya tenés contratos, escrituras o notificaciones, traelos."
+    },
+    {
+      "q": "¿Trabajan con honorarios fijos o por hora?",
+      "a": "Ofrecemos ambas modalidades. Para casos puntuales (constitución de empresas, contratos) trabajamos con honorarios fijos. Para litigios, acordamos el modelo que mejor se adapte a tus necesidades."
+    }
   ],
   "contact": {
     "title": "Contacto",
