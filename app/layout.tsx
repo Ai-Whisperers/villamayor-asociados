@@ -2,7 +2,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import WhatsAppFloat from "@/components/whatsapp-float"
+import { CookieConsent } from "@ai-whisperers/seo"
+import { WhatsAppFloat } from "@ai-whisperers/whatsapp"
 import type { Content } from "@/types/content"
 import raw from "@/content/es.json"
 
@@ -33,10 +34,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta name="theme-color" content="#1B2A4A" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KD29SX95E4" />
-        <script dangerouslySetInnerHTML={{
-          __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-KD29SX95E4');`
-        }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -75,6 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>{children}</main>
           <Footer />
           <WhatsAppFloat />
+          <CookieConsent />
         </div>
         <div className="h-20 md:h-0" />
       </body>
